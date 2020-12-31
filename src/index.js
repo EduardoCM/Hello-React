@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import PrimerComponente from './Ejercicios/PrimerComponente'
+import SegundoComponente from './Ejercicios/SegundoComponente'
+import StateUno from './Ejercicios/StateUno'
+
+import FormularioLogin from './Ejercicios/FormularioLogin'
+import FormularioColecciones from './Ejercicios/FormularioColecciones'
+
+import PropsUno from './Ejercicios/PropsUno'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FormularioColecciones />
   </React.StrictMode>,
   document.getElementById('root')
 );
